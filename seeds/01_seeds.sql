@@ -6,7 +6,7 @@ VALUES ('John Cena', 'johncena@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.
 ('Joe Biden', 'joebiden@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
 ('Elon Musk', 'elonmusk@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
-INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, num_bathrooms, num_bedrooms, 
+INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, number_of_bathrooms, number_of_bedrooms, 
 parking_spaces, country, street, city, province, post_code, active)
 VALUES (1, 'Mansion', 'description', 'url', 'url', 50, 3, 3, 1, 'Canada', 'Point Grey Rd', 'Vancouver', 'BC', 'v8r2d2', true),
 (2, 'Big Mansion', 'description', 'url', 'url', 60, 4, 4, 2, 'Canada', 'Granville St', 'Vancouver', 'BC', 'v3r2d2', true),
